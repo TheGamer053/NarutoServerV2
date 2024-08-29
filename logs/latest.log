@@ -1,0 +1,41 @@
+[22:14:08] [Server thread/INFO]: Starting minecraft server version 1.12.2
+[22:14:08] [Server thread/INFO]: Loading properties
+[22:14:08] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: O identificador é inválido
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:?]
+	at java.io.FileInputStream.read(FileInputStream.java:287) ~[?:?]
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:345) ~[?:?]
+	at java.io.BufferedInputStream.implRead(BufferedInputStream.java:420) ~[?:?]
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:399) ~[?:?]
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:350) ~[?:?]
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:393) ~[?:?]
+	at sun.nio.cs.StreamDecoder.lockedRead(StreamDecoder.java:217) ~[?:?]
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:171) ~[?:?]
+	at java.io.InputStreamReader.read(InputStreamReader.java:186) ~[?:?]
+	at java.io.BufferedReader.fill(BufferedReader.java:160) ~[?:?]
+	at java.io.BufferedReader.implReadLine(BufferedReader.java:370) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:347) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:436) ~[?:?]
+	at nz$2.run(SourceFile:100) [server.jar:?]
+[22:14:08] [Server thread/INFO]: Default game type: SURVIVAL
+[22:14:08] [Server thread/INFO]: Generating keypair
+[22:14:08] [Server thread/INFO]: Starting Minecraft server on *:25565
+[22:14:08] [Server thread/INFO]: Using default channel type
+[22:14:08] [Server thread/INFO]: Preparing level "world"
+[22:14:09] [Server thread/INFO]: Loaded 488 advancements
+[22:14:09] [Server thread/INFO]: Preparing start region for level 0
+[22:14:10] [Server thread/INFO]: Preparing spawn area: 11%
+[22:14:11] [Server thread/INFO]: Preparing spawn area: 22%
+[22:14:12] [Server thread/INFO]: Preparing spawn area: 35%
+[22:14:13] [Server thread/INFO]: Preparing spawn area: 52%
+[22:14:14] [Server thread/INFO]: Preparing spawn area: 69%
+[22:14:15] [Server thread/INFO]: Preparing spawn area: 85%
+[22:14:16] [Server thread/INFO]: Done (7,554s)! For help, type "help" or "?"
+[22:14:23] [Server thread/INFO]: Stopping the server
+[22:14:23] [Server thread/INFO]: Stopping server
+[22:14:23] [Server thread/INFO]: Saving players
+[22:14:23] [Server thread/INFO]: Saving worlds
+[22:14:23] [Server thread/INFO]: Saving chunks for level 'world'/overworld
+[22:14:23] [Server thread/INFO]: Saving chunks for level 'world'/the_nether
+[22:14:23] [Server thread/INFO]: Saving chunks for level 'world'/the_end
+[22:14:24] [Server Shutdown Thread/INFO]: Stopping server
